@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/CGGAdminTool/src/main/java/org/khtn/group12/cgg/admintool/application/MainRunApplication.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.khtn.group12.cgg.admintool.application.MainRunApplication"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="CGGAdminTool"/>
+</launchConfiguration>

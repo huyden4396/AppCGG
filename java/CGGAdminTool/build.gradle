@@ -1,0 +1,42 @@
+group 'org.readcryptic.fat'
+version '1.0.0'
+
+apply plugin: 'java'
+
+apply plugin: 'application'
+mainClassName = 'org.khtn.group12.cgg.admintool.application.MainRunApplication'
+
+sourceCompatibility = 1.8
+
+buildscript {
+  repositories {
+    mavenCentral()
+    mavenLocal()
+    flatDir dirs: 'E:/eclipse/proguard5.3.3/lib'
+  }
+  dependencies {
+    classpath ':proguard:'
+  }
+}
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    // Firebase Java SDK
+    compile 'com.google.firebase:firebase-admin:5.9.0'
+
+    // Sundial Job Scheduler
+    compile 'org.knowm:sundial:2.1.1'
+    
+    //JFoenix
+    compile 'com.jfoenix:jfoenix:8.0.1'
+}
+
+task proguard(type: proguard.gradle.ProGuardTask) {
+  configuration 'proguard.pro'
+
+  injars "build/libs"
+}

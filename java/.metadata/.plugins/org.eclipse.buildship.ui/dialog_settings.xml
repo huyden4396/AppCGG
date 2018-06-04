@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.buildship.ui.wizard.project.import">
+		<item value="false" key="apply_working_sets"/>
+		<item value="D:\Nam_4_Ky_2\android_lap_trinh_di_dong\CGGAdminTool\CGGAdminTool" key="project_location"/>
+		<list key="working_sets">
+		</list>
+	</section>
+	<section name="org.eclipse.buildship.ui.wizard.project.creation">
+		<item value="true" key="use_default_location"/>
+		<item value="C:\Users\Huy Bui\Desktop\java\CGGAdminTool" key="project_location"/>
+	</section>
+</section>

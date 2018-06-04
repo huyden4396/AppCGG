@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">CGG</string>
+    <string name="action_login">Đăng Nhập</string>
+    <string name="action_logout">Đăng Xuất</string>
+    <string name="action_save">Lưu Lại</string>
+
+    <!-- TODO: Youtube KEY API -->
+    <string name="youtube_api_key">AIzaSyC1Xa3XXLfaarAz14_kFPthC16sdRScqDI</string>
+
+    <!-- TODO: String in login & register -->
+    <string name="password">Mật khẩu</string>
+    <string name="number_phone">Số điện thoại</string>
+    <string name="login">Đăng Nhập</string>
+    <string name="register">Đăng Ký</string>
+    <string name="non_login">Sử dụng thử ứng dụng không cần đăng ký</string>
+    <string name="resend">Gửi Lại Mã</string>
+    <string name="next">Tiếp Tục</string>
+    <string name="login_successful">Đăng nhập thành công.</string>
+    <string name="login_fail">Đăng nhập thất bại.</string>
+    <string name="register_successful">Đăng ký thành công.</string>
+    <string name="register_fail">Đăng ký thất bại.</string>
+    <string name="code_fail">Mã nhập vào không đúng.</string>
+    <string name="send_code_fail">Gửi mã thất bại.</string>
+    <string name="number_phone_fail">Số điện thoại không đúng.</string>
+    <string name="quota_exceeded">Lưu trữ quá tải.</string>
+    <string name="send_code">Đang gửi code đến số điện thoại.</string>
+    <string name="error_field_required">Trường này là bắt buộc.</string>
+    <string name="error_invalid_password">Mật khẩu này quá ngắn.</string>
+
+    <!-- TODO: Dialog -->
+    <string name="agree">Đồng Ý</string>
+    <string name="disagree">Không Đồng Ý</string>
+    <string name="title_book_ticket">Đặt Vé</string>
+    <string name="content_book_ticket">Bạn có chắc chắn đặt các vé: </string>
+
+    <!-- TODO: Content Book Ticket-->
+    <string name="screen">Màn Hình</string>
+    <string name="row_a">Dãy A</string>
+    <string name="row_b">Dãy B</string>
+    <string name="row_c">Dãy C</string>
+    <string name="row_d">Dãy D</string>
+    <string name="row_e">Dãy E</string>
+    <string name="row_f">Dãy F</string>
+    <string name="book">: Ghế đã có người đặt</string>
+    <string name="non_book">: Ghế chưa có người đặt</string>
+    <string name="selected">: Ghế bạn đang chọn</string>
+
+    <!-- TODO: Content Movie Detail-->
+    <string name="get_ticket">Đặt Vé</string>
+    <string name="movie_premiere">Khởi chiếu: </string>
+    <string name="movie_kind">Thể loại: </string>
+    <string name="movie_directors">Đạo diễn: </string>
+    <string name="movie_cast">Diễn viên: </string>
+    <string name="movie_time">Thời lượng: </string>
+    <string name="movie_language">Ngôn ngữ: </string>
+</resources>
